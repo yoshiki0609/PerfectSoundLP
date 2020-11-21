@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .benefits-section ul {
+    width: 95%;
+  }
+
+  .benefits-section ul li {
+    padding: 50px 20px;
+    display: inline-block;
+    height: 100%;
+  }
+
+  .promotion-container {
+    width: 95%;
+  }
+
+  .promotion-container h3 {
+    font-size: 2em;
+  }
+
+  .promotion-container p {
+    font-size: 0.9em;
+  }
+
+  .reviews-section {
+    padding: 40px 0;
+  }
+
+  .swiper-slide h4 {
+    margin-bottom: 3em;
+  }
+
+  .name {
+    margin-top: 60px;
+    letter-spacing: 2px;
+  }
+
+  .subscribe-section .container {
+    display: block;
+  }
+  .left-item {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    width: 100%;
+    height: auto;
+  }
+  .header {
+    display: block;
+    padding: 20px 0;
+  }
+
+  .header-left ul {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .header-right ul {
+    justify-content: flex-end;
+  }
+
+  .benefits-section {
+    height: 200vh;
+  }
+
+  .benefits-section ul {
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .benefits-section ul li {
+    padding: 0;
+    height: 0;
+    width: 100%;
+    margin: 100px auto;
+  }
+
+  .benefits-section ul li:not(:last-child) {
+    border-right: none;
+    /* border-bottom: thin solid rgba(255, 255, 255, 0.2); */
+  }
+
+  .odd {
+    transform: translateY(0);
+  }
+
+  .even {
+    transform: translateY(0);
+  }
+
+  .feature-container ul li {
+    width: 48%;
+  }
+
+  .promotion-container ul {
+    display: block;
+  }
+
+  .promotion-container ul li {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .promotion-container h3 {
+    margin-top: 30px;
+    font-size: 2.2em;
+    line-height: 1.3em;
+  }
+
+  .reviews-section {
+    padding: 20px 0;
+  }
+
+  .swiper-slide h4 {
+    margin-bottom: 3em;
+  }
+
+  .txt {
+    font-size: 1.6em;
+    line-height: 1.3em;
+  }
+
+  .name {
+    margin-top: 60px;
+    letter-spacing: 2px;
+  }
+
+  .subscribe-section .container {
+    display: block;
+  }
+
+  .left-item {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    display: block;
+    font-size: 1em;
+    width: 80%;
+    padding: 40px 0;
+  }
+
+  .footer-left,
+  .footer-center {
+    margin-bottom: 60px;
+  }
+
+  .footer-left a:not(:last-child),
+  .footer-center a:not(:last-child),
+  .footer-right a:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .copy-right {
+    font-size: 0.6em;
+  }
+}
